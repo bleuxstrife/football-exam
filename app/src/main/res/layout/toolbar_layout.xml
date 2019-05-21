@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    app:layout_scrollFlags="scroll|enterAlways"
+    app:theme="@style/ToolbarColoredBackArrow">
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dp"
+        android:text="texs"
+        android:textColor="@android:color/white" />
+    <ImageView
+        android:id="@+id/toolbar_search"
+        android:layout_width="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="end"
+        android:visibility="gone"
+        android:layout_height="?attr/actionBarSize"
+        android:src="@drawable/ic_search_white_24dp"/>
+
+</android.support.v7.widget.Toolbar>
